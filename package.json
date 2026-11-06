@@ -1,0 +1,25 @@
+{
+  "name": "apex-kombat",
+  "version": "1.0.0",
+  "description": "> El primer campeonato real de combate humanoide.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./css/input.css -o ./dist/output.css --watch",
+    "build": "npx @tailwindcss/cli -i ./css/input.css -o ./dist/output.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leinx2/apex-kombat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leinx2/apex-kombat/issues"
+  },
+  "homepage": "https://github.com/Leinx2/apex-kombat#readme",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.4",
+    "tailwindcss": "^4.3.4"
+  }
+}

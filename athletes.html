@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Athletes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Oswald', 'sans-serif'],
+                    },
+
+                    colors: {
+                        negro: '#0B090A',
+                        negrocarbon: '#161A1D',
+                        garnet: '#660708',
+                        mahogany: '#A4161A',
+                        mahoganyl: '#BA181B',
+                        fresa: '#E5383B',
+                        plata: '#B1A7A6',
+                        gris: '#D3D3D3',
+                        humob: '#F5F3F4',
+                        blanco: '#FFFFFF'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <section class="bg-negro py-8">
+        <div class="max-w-6xl mx-auto px-6">
+            <p class="text-fresa text-xs tracking-[0.3rem]">ENGINEAI T800 PLATFORM</p>
+            <h1 class="text-humob text-7xl font-bold">ATHLETES</h1>
+            <p class="text-plata text-sm max-w-xl mt-8 mb-12">The T800 'White Eagle' and its combat variants. Select a unit to inspect live telemetry and engineering blueprints.</p>
+
+            <div class="flex gap-3 mb-5">
+                <button class="bg-fresa border border-garnet px-6 py-2 text-blanco text-sm tracking-[0.2em] uppercase cursor-default">white eagle</button>
+                <button class="border border-plata px-6 py-2 text-plata text-sm tracking-[0.2em] uppercase hover:text-blanco transition duration-300 ease-in-out cursor-default">steel titan</button>
+                <button class="border border-plata px-6 py-2 text-plata text-sm tracking-[0.2em] uppercase hover:text-blanco transition duration-300 ease-in-out cursor-default">red falcon</button>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-5 gap-6">
+                <div class="lg:col-span-2 relative overflow-hidden border border-plata/30 min-h-[500px] flex flex-col">
+                    <img src="./img/robot-hero.png" alt="White Eagle" class="object-cover w-full">
+                    <div class="bg-negro p-6 flex flex-col flex-1 justify-end ">
+                        <p class="text-fresa text-xs tracking-[0.2em] uppercase">T800-WE01 · HEAVYWEIGHT</p>
+                        <h2 class="text-blanco text-5xl" font-bold uppercase>WHITE EAGLE</h2>
+                    </div>
+                </div>
+                <div class="lg:col-span-3 flex flex-col gap-6">
+                    <div class="grid grid-cols-3 bg-plata/20 gap-px border border-plata/20">
+                        <div class="bg-negrocarbon p-4">
+                            <p class="text-plata text-xs tracking-[0.1em] mb-2 uppercase">weight</p>
+                            <p class="text-blanco ext-1xl font-medium">78 kg</p>
+                        </div>
+                        <div class="bg-negrocarbon p-4">
+                            <p class="text-plata text-xs tracking-[0.1em] mb-2 uppercase">joint torque</p>
+                            <p class="text-blanco ext-1xl font-medium">450 Nm</p>
+                        </div>
+                        <div class="bg-negrocarbon p-4">
+                            <p class="text-plata text-xs tracking-[0.1em] mb-2 uppercase">actuator type</p>
+                            <p class="text-blanco ext-1xl font-medium">Planetary BLDC + harmonic drive</p>
+                        </div>
+                        <div class="bg-negrocarbon p-4">
+                            <p class="text-plata text-xs tracking-[0.1em] mb-2 uppercase">ko record</p>
+                            <p class="text-blanco text-1xl font-medium">11 KO · 14-1-0</p>
+                        </div>
+                        <div class="bg-negrocarbon p-4">
+                            <p class="text-plata text-xs tracking-[0.1em] mb-2 uppercase">strike velocity</p>
+                            <p class="text-blanco ext-1xl font-medium">9.4 m/s</p>
+                        </div>
+                        <div class="bg-negrocarbon p-4 ">
+                            <p class="text-plata text-xs tracking-[0.1em] mb-2 uppercase">degrees of freedom</p>
+                            <p class="text-blanco ext-1xl font-medium">31 DoF</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-col justify-between border border-plata/30">
+                        <span class="text-xs text-plata tracking-[0.2em] uppercase">engineering blueprint</span>
+                        <span class="text-xs text-plata tracking-[0.2em] uppercase">t800-we01</span>
+                        <svg viewBox="0 0 400 400" class="w-full h-auto">
+                            <circle cx="200" cy="60" r="25" class="stroke-humob fill-none" />   <!-- cabeza -->
+                            <rect x="160" y="100" width="80" height="120" rx="8" class="..." />  <!-- torso -->
+                            <line x1="160" y1="110" x2="120" y2="200" class="stroke-humob" />   <!-- brazo -->
+                            <circle cx="200" cy="60" r="5" class="fill-fresa" />                 <!-- punto rojo -->
+                        </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

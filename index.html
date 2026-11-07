@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>APEX | Real Humanoid Combat League</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Oswald', sans-serif;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body class="min-h-screen overflow-x-hidden bg-[#090909] text-white">
+
+    <header class="px-4 pt-3 md:px-8">
+
+        <!-- MENU -->
+
+        <nav class="fixed top-2 left-0 right-0 z-50 mx-auto flex max-w-6xl items-center justify-between border border-white/10 backdrop-blur-md bg-black/70  px-4 py-2 md:px-5">
+
+            <a href="#" class="flex flex-col leading-none">
+
+                <span class="mb-1 text-[8px] font-semibold tracking-[2px] text-gray-400">
+                    PROGRAMED DESTRUCTION
+                </span>
+
+                <span class="text-3xl font-bold tracking-tight">
+                    APEX<span class="text-[#E63940]">.</span>
+                </span>
+
+            </a>
+
+            <ul class="hidden items-center gap-7 text-[10px] font-medium tracking-[1.5px] text-gray-400 md:flex">
+
+                <li>
+                    <a href="#athletes" class="transition-colors hover:text-white">
+                        ATHLETES
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#fight-card" class="transition-colors hover:text-white">
+                        FIGHT CARD
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#highlights" class="transition-colors hover:text-white">
+                        HIGHLIGHTS
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#tickets" class="transition-colors hover:text-white">
+                        EVENTS & TICKETS
+                    </a>
+                </li>
+
+            </ul>
+
+            <a href=""
+                class="hidden bg-[#E63940] px-4 py-2 text-xs font-bold transition-colors hover:bg-red-700 md:block">
+                BUY TICKETS
+            </a>
+
+            <details class="relative md:hidden">
+
+                <summary class="cursor-pointer list-none border border-white/20 px-3 py-2 text-xs font-bold">
+                    MENU
+                </summary>
+
+                <ul class="absolute right-0 top-full z-50 mt-3 flex w-52 flex-col gap-4 border border-white/15 bg-[#111111] p-5 text-sm font-semibold text-gray-300 shadow-xl">
+
+                    <li><a href="#athletes" class="hover:text-white">ATHLETES</a></li>
+
+                    <li><a href="#fight-card" class="hover:text-white">FIGHT CARD</a></li>
+
+                    <li><a href="#highlights" class="hover:text-white">HIGHLIGHTS</a></li>
+
+                    <li><a href="#tickets" class="hover:text-white">EVENTS & TICKETS</a></li>
+
+                    <li>
+                        <a href="#" class="block bg-[#E63940] px-4 py-3 text-center text-white">
+                            BUY TICKETS
+                        </a>
+                    </li>
+
+                </ul>
+
+            </details>
+
+        </nav>
+
+    </header>
+
+    <main class="mt-10">
+
+        <section class="relative mx-auto max-w-6xl px-4 pb-10 pt-6 md:px-5 md:pt-6">
+
+            <div class="grid grid-cols-1 items-center gap-8 lg:grid-cols-2 lg:gap-12">
+
+
+                <div class="flex flex-col">
+
+                    <div class="mb-4">
+
+                        <span class="inline-flex items-center gap-2 bg-[#E63940] px-2 py-1 text-[9px] font-bold tracking-wider">
+
+                            <span class="h-1.5 w-1.5 rounded-full bg-white"></span>
+
+                            APEX 08 - ON SALE NOW
+
+                        </span>
+
+                    </div>
+
+
+                    <div class="mb-5 inline-flex w-fit flex-wrap border border-white/10 bg-[#111111]/80 px-3 py-2 text-[8px] font-semibold tracking-[1.5px] text-gray-300">
+
+                        OFFICIAL HOST & PRESENTING SPONSOR:
+
+                        <span class="ml-1 text-[#E63940]">
+                            MONSTER'S CINEMA DRIVER-IN ARENA
+                        </span>
+
+                    </div>
+
+
+                    <h1 class="text-6xl font-bold uppercase leading-[1.2] tracking-tight sm:text-7xl md:text-8xl">
+
+                        <span class="block">Real</span>
+
+                        <span class="block">Humanoid</span>
+
+                        <span class="block text-[#E63940]">Combat</span>
+
+                        <span class="block">League</span>
+
+                    </h1>
+
+                    <div class="mt-7 flex flex-wrap items-center gap-x-5 gap-y-3 text-[10px] tracking-wider text-gray-400">
+
+                        <div class="flex items-center gap-2">
+
+                            <span class="text-sm text-[#E63940]">▣</span>
+
+                            <span>SAT, DEC 12 · 8PM ET</span>
+
+                        </div>
+
+                        <div class="flex items-center gap-2">
+
+                            <span class="text-sm text-[#E63940]">⌖</span>
+
+                            <span>BARCLAYS CENTER, BROOKLYN NY</span>
+
+                        </div>
+
+                    </div>
+
+                    <div class="mt-5 flex gap-2">
+
+                        <div class="flex h-14 w-[62px] flex-col items-center justify-center border border-white/10 bg-[#111719]">
+
+                            <span class="text-2xl font-bold leading-none">36</span>
+
+                            <span class="mt-1 text-[7px] tracking-widest text-gray-400">DAYS</span>
+
+                        </div>
+
+
+                        <div class="flex h-14 w-[62px] flex-col items-center justify-center border border-white/10 bg-[#111719]">
+
+                            <span class="text-2xl font-bold leading-none">13</span>
+
+                            <span class="mt-1 text-[7px] tracking-widest text-gray-400">HRS</span>
+
+                        </div>
+
+
+                        <div class="flex h-14 w-[62px] flex-col items-center justify-center border border-white/10 bg-[#111719]">
+
+                            <span class="text-2xl font-bold leading-none">19</span>
+
+                            <span class="mt-1 text-[7px] tracking-widest text-gray-400">MIN</span>
+
+                        </div>
+
+
+                        <div class="flex h-14 w-[62px] flex-col items-center justify-center border border-white/10 bg-[#111719]">
+
+                            <span class="text-2xl font-bold leading-none">38</span>
+
+                            <span class="mt-1 text-[7px] tracking-widest text-gray-400">SEC</span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="mt-6 border border-white/10 bg-[#111719] p-4 sm:p-5">
+
+                        <div class="mb-4 flex items-center justify-between">
+
+                            <h2 class="text-base font-bold uppercase">
+                                Quick Ticket Selector
+                            </h2>
+
+                            <span class="text-lg text-[#E63940]">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" 
+                                class="w-6 h-6 text-[#E63940] hover:text-red-700 transition-colors">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 6v.75m0 3v.75m0 3v.75m0 3V18m-9-12v.75m0 3v.75m0 3v.75m0 3V18M3 16.5v-2.25A2.25 2.25 0 0 0 5.25 12 2.25 2.25 0 0 0 3 9.75V7.5A2.25 2.25 0 0 1 5.25 5.25h13.5A2.25 2.25 0 0 1 21 7.5v2.25A2.25 2.25 0 0 0 18.75 12 2.25 2.25 0 0 0 21 14.25v2.25A2.25 2.25 0 0 1 18.75 18.75H5.25A2.25 2.25 0 0 1 3 16.5Z" />
+                                </svg>
+                            </span>
+
+                        </div>
+
+
+                        <div class="grid grid-cols-3 gap-1.5">
+
+                            <button
+                                type="button"
+                                data-ticket="ringside"
+                                data-price="890"
+                                aria-pressed="false"
+                                class="ticket-option border border-white/10 bg-transparent p-2 text-left transition-colors hover:border-[#E63940]">
+
+                                <span class="block text-[8px] font-semibold tracking-widest text-gray-400">
+                                    RINGSIDE
+                                </span>
+
+                                <span class="mt-1 block text-xl font-bold">
+                                    $890
+                                </span>
+
+                            </button>
+
+                            <button
+                                type="button"
+                                data-ticket="vip"
+                                data-price="450"
+                                aria-pressed="true"
+                                class="ticket-option border border-[#E63940] bg-[#361719] p-2 text-left transition-colors">
+
+                                <span class="block text-[8px] font-semibold tracking-widest text-gray-300">
+                                    VIP
+                                </span>
+
+                                <span class="mt-1 block text-xl font-bold">
+                                    $450
+                                </span>
+
+                            </button>
+
+                            <button
+                                type="button"
+                                data-ticket="general"
+                                data-price="89"
+                                aria-pressed="false"
+                                class="ticket-option border border-white/10 bg-transparent p-2 text-left transition-colors hover:border-[#E63940]">
+
+                                <span class="block text-[8px] font-semibold tracking-widest text-gray-400">
+                                    GENERAL
+                                </span>
+
+                                <span class="mt-1 block text-xl font-bold">
+                                    $89
+                                </span>
+
+                            </button>
+
+                        </div>
+
+                        <div class="mt-3 flex items-center justify-between">
+
+                            <span id="ticket-description" class="text-[10px] text-gray-400">
+                                Lounge + paddock tour
+                            </span>
+
+                            <div class="flex items-center gap-3">
+
+                                <button
+                                    id="decrease"
+                                    type="button"
+                                    aria-label="Decrease ticket quantity"
+                                    class="flex h-7 w-7 items-center justify-center border border-white/10 text-gray-400 transition-colors hover:border-[#E63940] hover:text-white">
+                                    -
+                                </button>
+
+                                <span id="quantity" class="text-xs font-bold">
+                                    2
+                                </span>
+
+                                <button
+                                    id="increase"
+                                    type="button"
+                                    aria-label="Increase ticket quantity"
+                                    class="flex h-7 w-7 items-center justify-center border border-white/10 text-gray-400 transition-colors hover:border-[#E63940] hover:text-white">
+                                    +
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                        <button
+                            id="buy-button"
+                            type="button"
+                            class="mt-4 flex w-full items-center justify-between bg-[#E63940] px-5 py-3 text-xs font-bold transition-colors hover:bg-red-700">
+
+                            <span>GET TICKETS NOW</span>
+
+                            <span id="total-price">$900</span>
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <div id="#athletes" class="relative mx-auto w-full max-w-[465px]">
+
+                    <div class="relative aspect-[4/5] overflow-hidden bg-[#151515]">
+
+                        <img
+                            src="./img/robot-hero.png"
+                            alt="White Eagle, champion humanoid combat robot"
+                            class="h-full w-full object-cover object-center"
+                        >
+
+                        <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black/10"></div>
+
+                        <div class="absolute bottom-0 left-0 flex w-full items-end justify-between p-4">
+
+                            <div>
+
+                                <span class="block text-[9px] font-bold tracking-widest text-[#E63940]">
+                                    CHAMPION
+                                </span>
+
+                                <h2 class="text-3xl font-bold uppercase leading-none sm:text-4xl">
+                                    White Eagle
+                                </h2>
+
+                            </div>
+
+
+                            <div class="text-right text-[9px] tracking-wider text-gray-400">
+
+                                <span class="block">T800-WE01</span>
+
+                                <span class="block">14-1-0</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- SECCION DE ATLETAS -->
+        <section id="athletes" class="flex flex-col relative mx-auto max-w-6xl px-4 pb-10 pt-6 md:px-5 md:pt-6 t800 justify-row gap-5">
+            <div>
+                <p class="inline-block text-[#E63940] text-xs tracking-[3px] uppercase mb-1">
+                    EngineAI T800 Platform
+                </p>
+
+                <h2 class="text-5xl font-bold text-white">
+                    T800 ATHLETES
+                </h2>
+            </div>
+
+            <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                <article class="bg-[#13181B] flex h-full min-w-0 flex-col border border-transparent transition-colors duration-500 hover:border-red-600">
+                    <div class="overflow-hidden">
+                        <img src="./img/robot-hero.png" alt="" class="aspect-[4/5] w-full object-cover transition-transform duration-500 hover:scale-105">
+                    </div>
+
+                    <div class="flex items-start justify-between p-3">
+                        <h3 class="uppercase text-3xl font-bold">white eagle</h3>
+                        <span class="justify-end text-[21px] font-semibold text-[#AFA5A4]">14-1-0</span>
+                    </div>
+                    
+                    <div class="flex flex-wrap gap-2 p-3">
+                        <span class="inline-block border border-gray-400/30 py-1 px-2 text-xs">T800-WE01</span>
+                        <span class="inline-block border border-gray-400/30 py-1 px-2 text-xs">78kg</span>
+                        <span class="inline-block border border-gray-400/30 py-1 px-2 text-xs">450 NM</span>
+                    </div>
+
+                    <button
+                        type="button"
+                        data-robot="white-eagle"
+                        class="open-telemetry uppercase p-1 w-full border border-gray-400/30 bg-black transition-colors duration-300 hover:bg-red-700">
+                        View Telemetry
+                    </button>
+                </article>
+
+                <article class="bg-[#13181B] flex h-full min-w-0 flex-col border border-transparent transition-colors duration-500 hover:border-red-600">
+                    <div class="overflow-hidden">
+                        <img src="./img/fighter-titan.png" alt="" class="aspect-[4/5] w-full object-cover transition-transform duration-500 hover:scale-105">
+                    </div>
+
+                    <div class="flex items-start justify-between p-3">
+                        <h3 class="uppercase text-3xl font-bold">steel titan</h3>
+                        <span class="justify-end text-[21px] font-semibold text-[#AFA5A4]">12-2-0</span>
+                    </div>
+                    
+                    <div class="flex flex-wrap gap-2 p-3">
+                        <span class="inline-block border border-gray-400/30 py-1 px-2 text-xs">T800-ST03</span>
+                        <span class="inline-block border border-gray-400/30 py-1 px-2 text-xs">92kg</span>
+                        <span class="inline-block border border-gray-400/30 py-1 px-2 text-xs">520 NM</span>
+                    </div>
+
+                    <button
+                        type="button"
+                        data-robot="steel-titan"
+                        class="open-telemetry uppercase p-1 w-full border border-gray-400/30 bg-black transition-colors duration-300 hover:bg-red-700">
+                        View Telemetry
+                    </button>
+                </article>
+
+                <article class="bg-[#13181B] flex h-full min-w-0 flex-col border border-transparent transition-colors duration-500 hover:border-red-600">
+                    <div class="overflow-hidden">
+                        <img src="./img/falcon-fighter.png" alt="" class="aspect-[4/5] w-full object-cover transition-transform duration-500 hover:scale-105">
+                    </div>
+
+                    <div class="flex items-start justify-between p-3">
+                        <h3 class="uppercase text-3xl font-bold">steel titan</h3>
+                        <span class="justify-end text-[21px] font-semibold text-[#AFA5A4]">12-2-0</span>
+                    </div>
+                    
+                    <div class="flex flex-wrap gap-2 p-3">
+                        <span class="inline-block border border-gray-400/30 py-1 px-2 text-xs">T800-ST03</span>
+                        <span class="inline-block border border-gray-400/30 py-1 px-2 text-xs">92kg</span>
+                        <span class="inline-block border border-gray-400/30 py-1 px-2 text-xs">520 NM</span>
+                    </div>
+
+                    <button
+                        type="button"
+                        data-robot="red-falcon"
+                        class="open-telemetry uppercase p-1 w-full border border-gray-400/30 bg-black transition-colors duration-300 hover:bg-red-700">
+                        View Telemetry
+                    </button>
+                </article>                
+            </div>
+        </section>
+
+        <section id="highlights" class="mx-auto max-w-6xl px-4 py-12 md:px-5">
+
+            <!-- Encabezado -->
+            <div class="mb-8 border-b border-white/15 pb-5">
+                <p class="text-xs font-bold tracking-[4px] text-[#E63940]">
+                    REPLAYS & K.O. CLIPS
+                </p>
+
+                <h2 class="text-5xl font-bold uppercase">
+                    HIGHLIGHTS
+                </h2>
+            </div>
+
+            <!-- Contenedor principal -->
+            <div class="grid grid-cols-1 gap-5 lg:grid-cols-2">
+
+                <!-- Video principal -->
+                <article>
+                    <a href="#" class="group block">
+
+                        <div class="relative aspect-video overflow-hidden bg-[#13181B]">
+
+                            <img src="./img/fight-highlight.png"
+                                alt="White Eagle fighting Steel Titan"
+                                class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105">
+
+                            <!-- Botón play -->
+                            <span class="absolute inset-0 flex items-center justify-center">
+                                <span class="flex h-16 w-16 items-center justify-center rounded-full bg-[#E63940] text-2xl text-white transition-transform group-hover:scale-110">
+                                    ▶
+                                </span>
+                            </span>
+
+                            <!-- Duración -->
+                            <span class="absolute bottom-2 right-2 bg-black/80 px-2 py-1 text-xs font-bold">
+                                0:48
+                            </span>
+
+                        </div>
+
+                        <h3 class="mt-3 text-2xl font-bold uppercase leading-tight">
+                            White Eagle Flatlines Titan-II in R2
+                        </h3>
+
+                        <p class="mt-2 text-xs text-gray-400">
+                            ◉ 2.4M views
+                        </p>
+
+                    </a>
+                </article>
+
+
+                <!-- Videos secundarios -->
+                <div class="grid grid-cols-1 gap-5 sm:grid-cols-2">
+
+                    <!-- Video 2 -->
+                    <article>
+                        <a href="#" class="group block">
+
+                            <div class="relative aspect-video overflow-hidden bg-[#13181B]">
+
+                                <img src="./img/fight-highlight.png"
+                                    alt="APEX 07 full main event replay"
+                                    class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105">
+
+                                <span class="absolute inset-0 flex items-center justify-center">
+                                    <span class="flex h-12 w-12 items-center justify-center rounded-full bg-[#E63940] text-white group-hover:scale-110">
+                                        ▶
+                                    </span>
+                                </span>
+
+                                <span class="absolute bottom-2 right-2 bg-black/80 px-2 py-1 text-xs">
+                                    34:12
+                                </span>
+
+                            </div>
+
+                            <h3 class="mt-3 text-lg font-bold uppercase leading-tight">
+                                APEX 07: Full Main Event Replay
+                            </h3>
+
+                            <p class="mt-2 text-xs text-gray-400">
+                                ◉ 1.1M views
+                            </p>
+
+                        </a>
+                    </article>
+
+
+                    <!-- Video 3 -->
+                    <article>
+                        <a href="#" class="group block">
+
+                            <div class="relative aspect-video overflow-hidden bg-[#13181B]">
+
+                                <img src="./img/fight-highlight.png"
+                                    alt="Red Falcon spinning heel knockout"
+                                    class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105">
+
+                                <span class="absolute inset-0 flex items-center justify-center">
+                                    <span class="flex h-12 w-12 items-center justify-center rounded-full bg-[#E63940] text-white group-hover:scale-110">
+                                        ▶
+                                    </span>
+                                </span>
+
+                                <span class="absolute bottom-2 right-2 bg-black/80 px-2 py-1 text-xs">
+                                    0:31
+                                </span>
+
+                            </div>
+
+                            <h3 class="mt-3 text-lg font-bold uppercase leading-tight">
+                                Red Falcon Spinning Heel KO
+                            </h3>
+
+                            <p class="mt-2 text-xs text-gray-400">
+                                ◉ 3.8M views
+                            </p>
+
+                        </a>
+                    </article>
+
+
+                    <!-- Video 4 -->
+                    <article>
+                        <a href="#" class="group block">
+
+                            <div class="relative aspect-video overflow-hidden bg-[#13181B]">
+
+                                <img src="./img/fight-highlight.png"
+                                    alt="Robot weigh-ins and actuator calibration"
+                                    class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105">
+
+                                <span class="absolute inset-0 flex items-center justify-center">
+                                    <span class="flex h-12 w-12 items-center justify-center rounded-full bg-[#E63940] text-white group-hover:scale-110">
+                                        ▶
+                                    </span>
+                                </span>
+
+                                <span class="absolute bottom-2 right-2 bg-[#E63940] px-2 py-1 text-xs font-bold">
+                                    LIVE
+                                </span>
+
+                            </div>
+
+                            <h3 class="mt-3 text-lg font-bold uppercase leading-tight">
+                                Weigh-ins & Actuator Calibration
+                            </h3>
+
+                            <p class="mt-2 text-xs text-gray-400">
+                                ◉ 18K views
+                            </p>
+
+                        </a>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- SPONSORS -->
+        <section class="border-t border-white/10 bg-[#0B090A] px-4 py-12 md:px-5">
+
+            <div class="mx-auto max-w-6xl">
+
+                <!-- Encabezado -->
+                <div class="mb-8 flex flex-col justify-between gap-4 border-b border-white/15 pb-6 md:flex-row md:items-end">
+
+                    <div>
+                        <p class="mb-2 text-xs font-bold uppercase tracking-[3px] text-[#E5383B]">
+                            SOCIO TITULAR · OFFICIAL PARTNERS
+                        </p>
+
+                        <h2 class="text-4xl font-bold uppercase sm:text-5xl">
+                            MONSTER'S CINEMA
+                        </h2>
+                    </div>
+
+                    <p class="text-xs uppercase tracking-wider text-gray-400">
+                        OFFICIAL HOST & PRESENTING SPONSOR
+                    </p>
+
+                </div>
+
+                <!-- Grid de patrocinadores -->
+                <div class="grid grid-cols-2 gap-px bg-white/15 md:grid-cols-4">
+
+                    <div class="bg-[#0B090A] p-6 text-center text-lg font-semibold tracking-widest text-gray-400">
+                        ENGINEAI
+                    </div>
+
+                    <div class="bg-[#0B090A] p-6 text-center text-lg font-semibold tracking-widest text-gray-400">
+                        SERVOTEK
+                    </div>
+
+                    <div class="bg-[#0B090A] p-6 text-center text-lg font-semibold tracking-widest text-gray-400">
+                        KINETIK
+                    </div>
+
+                    <div class="bg-[#0B090A] p-6 text-center text-lg font-semibold tracking-widest text-gray-400">
+                        ARENAONE
+                    </div>
+
+                    <div class="bg-[#0B090A] p-6 text-center text-lg font-semibold tracking-widest text-gray-400">
+                        VOLTRA
+                    </div>
+
+                    <div class="bg-[#0B090A] p-6 text-center text-lg font-semibold tracking-widest text-gray-400">
+                        TORQLINE
+                    </div>
+
+                    <div class="bg-[#0B090A] p-6 text-center text-lg font-semibold tracking-widest text-gray-400">
+                        HEXACORE
+                    </div>
+
+                    <div class="bg-[#0B090A] p-6 text-center text-lg font-semibold tracking-widest text-gray-400">
+                        IRONPULSE
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="border-t border-white/10 bg-[#111719]">
+
+            <div class="mx-auto grid max-w-6xl grid-cols-1 gap-10 px-4 py-12 md:grid-cols-2 md:gap-16 md:px-5">
+
+                <!-- Marca -->
+                <div>
+
+                    <a href="#" class="inline-block text-3xl font-bold tracking-tight">
+                        APEX<span class="text-[#E5383B]">.</span>
+                    </a>
+
+                    <p class="mt-2 max-w-xs text-sm leading-relaxed text-gray-400">
+                        Real humanoid engineering. Real knockouts.
+                        Patrocinated by Monster's Cinema.
+                    </p>
+
+                    <!-- Redes sociales -->
+                    <div class="mt-5 flex gap-3">
+
+                        <a href="#" aria-label="Instagram"
+                            class="flex h-9 w-9 items-center justify-center border border-white/15 text-sm text-gray-300 transition-colors hover:border-[#E5383B] hover:text-white">
+                            IG
+                        </a>
+
+                        <a href="#" aria-label="YouTube"
+                            class="flex h-9 w-9 items-center justify-center border border-white/15 text-sm text-gray-300 transition-colors hover:border-[#E5383B] hover:text-white">
+                            YT
+                        </a>
+
+                        <a href="#" aria-label="X"
+                            class="flex h-9 w-9 items-center justify-center border border-white/15 text-sm text-gray-300 transition-colors hover:border-[#E5383B] hover:text-white">
+                            X
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <!-- Suscripción -->
+                <div>
+
+                    <h2 class="text-xl font-bold uppercase">
+                        GET FIGHT ALERTS
+                    </h2>
+
+                    <p class="mt-1 text-xs text-gray-400">
+                        Presale codes, weigh-in streams and K.O. clips first.
+                    </p>
+
+                    <form class="mt-4 flex flex-col gap-2 sm:flex-row">
+
+                        <label for="email-alerts" class="sr-only">
+                            Email address
+                        </label>
+
+                        <input
+                            id="email-alerts"
+                            type="email"
+                            name="email"
+                            placeholder="you@email.com"
+                            autocomplete="email"
+                            required
+                            class="min-w-0 flex-1 border border-white/15 bg-[#0B090A] px-3 py-3 text-sm text-white outline-none focus:border-[#E5383B]">
+
+                        <button
+                            type="submit"
+                            class="bg-[#E5383B] px-6 py-3 text-sm font-bold uppercase transition-colors hover:bg-red-700">
+                            SUBSCRIBE
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+            <!-- Copyright -->
+            <div class="border-t border-white/10">
+
+                <div class="mx-auto max-w-6xl px-4 py-5 text-xs text-gray-500 md:px-5">
+                    © 2026 APEX Combat League. All rights reserved.
+                </div>
+
+            </div>
+
+        </footer>
+
+        <dialog id="telemetry-modal"
+            aria-labelledby="modal-name"
+            class="m-auto w-[90%] max-w-lg max-h-[90vh] overflow-y-auto border border-white/20 bg-[#15191C] p-5 text-white backdrop:bg-black/80">
+
+            <div class="mb-5 flex items-start justify-between">
+                <div>
+                    <p class="text-xs tracking-widest text-[#E63940]">
+                        T800 ATHLETE TELEMETRY
+                    </p>
+
+                    <h2 id="modal-name" class="mt-1 text-3xl font-bold uppercase"></h2>
+                    <p id="modal-id" class="text-sm text-gray-400"></p>
+                </div>
+
+                <button id="close-modal" aria-label="Close telemetry"
+                    class="text-2xl text-gray-400 hover:text-white">
+                    &times;
+                </button>
+            </div>
+
+            <div class="grid grid-cols-2 gap-3">
+
+                <div class="bg-[#1D2326] p-3">
+                    <p class="text-xs text-gray-400">WEIGHT CLASS</p>
+                    <p id="modal-weight" class="font-semibold"></p>
+                </div>
+
+                <div class="bg-[#1D2326] p-3">
+                    <p class="text-xs text-gray-400">FIGHTING STYLE</p>
+                    <p id="modal-style" class="font-semibold"></p>
+                </div>
+
+                <div class="bg-[#1D2326] p-3">
+                    <p class="text-xs text-gray-400">MASS</p>
+                    <p id="modal-mass" class="font-semibold"></p>
+                </div>
+
+                <div class="bg-[#1D2326] p-3">
+                    <p class="text-xs text-gray-400">PEAK TORQUE</p>
+                    <p id="modal-torque" class="font-semibold"></p>
+                </div>
+
+                <div class="bg-[#1D2326] p-3">
+                    <p class="text-xs text-gray-400">STRIKE VELOCITY</p>
+                    <p id="modal-velocity" class="font-semibold"></p>
+                </div>
+
+                <div class="bg-[#1D2326] p-3">
+                    <p class="text-xs text-gray-400">KNOCKOUTS</p>
+                    <p id="modal-knockouts" class="font-semibold"></p>
+                </div>
+
+                <div class="bg-[#1D2326] p-3">
+                    <p class="text-xs text-gray-400">RECORD</p>
+                    <p id="modal-record" class="font-semibold"></p>
+                </div>
+
+                <div class="bg-[#1D2326] p-3">
+                    <p class="text-xs text-gray-400">DEGREES OF FREEDOM</p>
+                    <p id="modal-dof" class="font-semibold"></p>
+                </div>
+
+            </div>
+
+            <button id="close-modal-bottom"
+                class="mt-6 w-full bg-[#E63940] p-3 font-bold uppercase hover:bg-red-700">
+                Close Telemetry
+            </button>
+
+        </dialog>
+
+    </main>
+
+    <script>
+        //Script para los tickets
+        const ticketOptions = document.querySelectorAll('.ticket-option');
+
+        const quantityElement = document.getElementById('quantity');
+
+        const totalPriceElement = document.getElementById('total-price');
+
+        const descriptionElement = document.getElementById('ticket-description');
+
+        let selectedPrice = 450;
+
+        let quantity = 2;
+
+        let selectedTicket = 'vip';
+
+        const descriptions = {
+            ringside: 'Front row + exclusive access',
+            vip: 'Lounge + paddock tour',
+            general: 'General admission'
+        };
+
+        function updateTotal() {
+
+            const total = selectedPrice * quantity;
+
+            totalPriceElement.textContent = '$' + total.toLocaleString('en-US');
+
+            quantityElement.textContent = quantity;
+
+        }
+
+        ticketOptions.forEach(option => {
+
+            option.addEventListener('click', () => {
+
+                selectedPrice = Number(option.dataset.price);
+
+                selectedTicket = option.dataset.ticket;
+
+                ticketOptions.forEach(ticket => {
+
+                    ticket.classList.remove('border-[#E63940]', 'bg-[#361719]');
+
+                    ticket.classList.add('border-white/10', 'bg-transparent');
+
+                    ticket.setAttribute('aria-pressed', 'false');
+
+                });
+
+
+                option.classList.remove('border-white/10', 'bg-transparent');
+
+                option.classList.add('border-[#E63940]', 'bg-[#361719]');
+
+                option.setAttribute('aria-pressed', 'true');
+
+
+                descriptionElement.textContent = descriptions[selectedTicket];
+
+                updateTotal();
+
+            });
+
+        });
+
+        document.getElementById('increase').addEventListener('click', () => {
+
+            if (quantity < 10) {
+
+                quantity++;
+
+                updateTotal();
+
+            }
+
+        });
+
+        document.getElementById('decrease').addEventListener('click', () => {
+
+            if (quantity > 1) {
+
+                quantity--;
+
+                updateTotal();
+
+            }
+
+        });
+
+        updateTotal();
+
+        document.getElementById('buy-button').addEventListener('click', () => {
+
+            alert(
+                'Ticket: ' + selectedTicket.toUpperCase() +
+                '\nQuantity: ' + quantity +
+                '\nTotal: ' + totalPriceElement.textContent
+            );
+
+        });
+
+    //Script para el modal
+
+        const robots = {
+            "white-eagle": {
+                name: "White Eagle",
+                id: "T800-WE01",
+                weight: "Heavyweight",
+                style: "Counter-striker",
+                mass: "78 kg",
+                torque: "450 Nm",
+                velocity: "9.4 m/s",
+                knockouts: "11",
+                record: "14-1-0",
+                dof: "31 DoF"
+            },
+
+            "red-falcon": {
+                name: "Red Falcon",
+                id: "T800-RF07",
+                weight: "Middleweight",
+                style: "Kick specialist",
+                mass: "64 kg",
+                torque: "380 Nm",
+                velocity: "10.6 m/s",
+                knockouts: "6",
+                record: "9-0-0",
+                dof: "31 DoF"
+            },
+
+            "steel-titan": {
+                name: "Steel Titan",
+                id: "T800-ST03",
+                weight: "Super Heavyweight",
+                style: "Pressure brawler",
+                mass: "92 kg",
+                torque: "520 Nm",
+                velocity: "8.1 m/s",
+                knockouts: "10",
+                record: "12-2-0",
+                dof: "31 DoF"
+            }
+        };
+
+        const modal = document.getElementById("telemetry-modal");
+
+        document.querySelectorAll(".open-telemetry").forEach(button => {
+            button.addEventListener("click", () => {
+
+                const robot = robots[button.dataset.robot];
+
+                document.getElementById("modal-name").textContent = robot.name;
+                document.getElementById("modal-id").textContent = robot.id;
+                document.getElementById("modal-weight").textContent = robot.weight;
+                document.getElementById("modal-style").textContent = robot.style;
+                document.getElementById("modal-mass").textContent = robot.mass;
+                document.getElementById("modal-torque").textContent = robot.torque;
+                document.getElementById("modal-velocity").textContent = robot.velocity;
+                document.getElementById("modal-knockouts").textContent = robot.knockouts;
+                document.getElementById("modal-record").textContent = robot.record;
+                document.getElementById("modal-dof").textContent = robot.dof;
+
+                modal.showModal();
+            });
+        });
+
+        document.getElementById("close-modal").addEventListener("click", () => {
+            modal.close();
+        });
+
+        document.getElementById("close-modal-bottom").addEventListener("click", () => {
+            modal.close();
+        });
+    </script>
+</body>
+
+</html>
